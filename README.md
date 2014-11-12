@@ -4,7 +4,7 @@
 
 1. 2014/09/23
 
-2. 2014/09/30
+2. 2014/09/30  
 	1.-1. Helloクラス作成
 	* Hello.java
 	1-2. BoolTestクラス作成
@@ -14,7 +14,7 @@
 	1-4. ArryTestクラス作成
 	* ArryTest.java
 
-3. 2014/10/07
+3. 2014/10/07  
 	3-1. selectKujiメソッドの作成
 	* Lottery.java
 	3-2. showKujiメソッドの作成
