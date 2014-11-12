@@ -5,8 +5,8 @@
 1. 2014/09/23  
 
 2. 2014/09/30  
-	1-1. Helloクラス作成  
-		+ Hello.java  
+  1-1. Helloクラス作成  
+    * Hello.java  
 	1-2. BoolTestクラス作成  
 		* BoolTest.java  
 	1-3. StringTestクラス作成  
