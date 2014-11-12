@@ -6,11 +6,11 @@
 
 2. 2014/09/30  
 	1-1. Helloクラス作成  
-		* Hello.java  
+		+ Hello.java  
 	1-2. BoolTestクラス作成  
 		* BoolTest.java  
 	1-3. StringTestクラス作成  
-		* StringTest.java  
+		- StringTest.java  
 	1-4. ArryTestクラス作成  
 		* ArryTest.java  
 
