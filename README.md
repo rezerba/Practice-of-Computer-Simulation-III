@@ -7,11 +7,11 @@
 2. 2014/09/30  
 1-1. Helloクラス作成
     * Hello.java  
-1-*. BoolTestクラス作成  
+1-* BoolTestクラス作成  
     * BoolTest.java  
-1-*. StringTestクラス作成  
+1-* StringTestクラス作成  
     * StringTest.java  
-1-*. ArryTestクラス作成  
+1-* ArryTestクラス作成  
     * ArryTest.java  
 
 3. 2014/10/07  
