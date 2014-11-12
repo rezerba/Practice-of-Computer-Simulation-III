@@ -34,29 +34,29 @@
   * BattleFieldクラスの作成  
     * BattleField.java  
   * Hero, Monsterクラスに逃走機能を付ける  
-    * [Hero.java](../blob/master/10_14/src/game/rpg/Hero.java)  
-    * [Mnster.java](../blob/master/10_14/src/game/rpg/Monster.java)  
+    * [Hero.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_14/src/game/rpg/Hero.java)  
+    * [Mnster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_14/src/game/rpg/Monster.java)  
   * 4-5よりBattleFieldクラスの修正  
-    * [BattleField.java](../blob/master/10_14/src/game/rpg/BattleField.java)  
+    * [BattleField.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_14/src/game/rpg/BattleField.java)  
 
 5. 2014/10/21  
   1. 課題4の改良  
-    * [Hero.java](../blob/master/10_21/src/game/rpg/Hero.java)  
-    * [Monster.java](../blob/master/10_21/src/game/rpg/Mosnter.java)  
+    * [Hero.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_21/src/game/rpg/Hero.java)  
+    * [Monster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_21/src/game/rpg/Mosnter.java)  
     * BattleField.java  
   * BattleFieldクラスの改良  
-    * [BattleField.java](../blob/master/10_21/src/game/rpg/BattleField.java)  
+    * [BattleField.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_21/src/game/rpg/BattleField.java)  
 
 6. 2014/14/28  
   1. リファクタリング  
-    * [Hero.java](../blob/master/10_28/src/game/rpg/Hero.java)  
-    * [Monster.java](../blob/master/10_28/src/game/rpg/Monster.java)  
-    * [BattleField.java](../blob/master/10_28/src/game/rpg/BattleField.java)  
-    * [View.java](../blob/master/10_28/src/game/rpg/View.java)  
+    * [Hero.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_28/src/game/rpg/Hero.java)  
+    * [Monster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_28/src/game/rpg/Monster.java)  
+    * [BattleField.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_28/src/game/rpg/BattleField.java)  
+    * [View.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_28/src/game/rpg/View.java)  
 
 7. 2014/11/04  
   1. MagicMonsterクラスの作成  
-    * 7-2参照  
+    * 7-ii参照  
   * モンスター生成メソッド  
     * Hero.java  
     * Monster.java  
