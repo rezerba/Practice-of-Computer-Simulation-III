@@ -24,7 +24,7 @@
   * buyLotteryメソッドの作成  
     * Lottery.java  
   * startメソッドの作成  
-    * Lottery.java  
+    * [Lottery.java(doesn't work)](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/10_07/src/simulation/Lottery.java)  
 
 4. 2014/10/14  
   1. Heroクラスの作成  
