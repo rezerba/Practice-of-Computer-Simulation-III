@@ -62,7 +62,7 @@
     * Monster.java  
     * MagicMonster.java  
     * BattleField.java  
-    * Vie.java  
+    * View.java  
 
 8. 2014/11/11  
   1. 課題7のリファクタリング  
