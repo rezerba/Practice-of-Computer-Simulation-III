@@ -58,11 +58,11 @@
   1. MagicMonsterクラスの作成  
     * 7-ii参照  
   * モンスター生成メソッド  
-    * Hero.java  
-    * Monster.java  
-    * MagicMonster.java  
-    * BattleField.java  
-    * View.java  
+    * [Hero.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_04/src/game/rpg/Hero.java)  
+    * [Monster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_04/src/game/rpg/Monster.java)  
+    * [MagicMonster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_04/src/game/rpg/Monster.java)  
+    * [BattleField.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_04/src/game/rpg/BattleField.java)  
+    * [View.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_04/src/game/rpg/View.java)  
 
 8. 2014/11/11  
   1. 課題7のリファクタリング  
