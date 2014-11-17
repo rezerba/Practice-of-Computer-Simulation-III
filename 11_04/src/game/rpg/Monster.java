@@ -22,17 +22,6 @@ public class Monster {
 		this.act = ran.nextInt(3) + 1;
 	}
 	
-	Monster(View view) {
-		view.showAttack(this.name, this.attack());
-		view.showDefend(this.name, this.defend());
-		view.RunAway(this.name, this.run());
-		view.Chase(this.name, this.run());
-		view.GainGold(this.name, this.gainGold(gold));
-		view.GainHP(this.name, this.hp);
-		//view.LoseHP(this.name, damage);
-		view.Die(this.name);
-	}
-	
 	int attack() {
 		int atk = ran.nextInt(attackPower / 2 + 1) + attackPower / 2;
 		view.showAttack(this.name, atk);

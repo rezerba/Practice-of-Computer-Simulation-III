@@ -5,7 +5,7 @@ import java.util.*;
 public class View {
 	
 	public void showName(String name, int no) {
-	System.out.println("--- " + name + no + " state ---");	
+	System.out.println("--- " + name + no + " state ---");
 	}
 	
 	public void showAttack(String name, int value) {
@@ -61,7 +61,6 @@ public class View {
 	public void showMonsterState(Monster monster, int no) {
 		System.out.println("-------------------------");
 		this.showName(monster.getName(), no);
-		this.showAttack(monster.getName(), monster.getAttackPower());
 		this.showAttack(monster.getName(), monster.getAttackPower());
 		this.showDefend(monster.getName(), monster.getDefencePower());
 		this.RunAway(monster.getName(), monster.getRunPower());

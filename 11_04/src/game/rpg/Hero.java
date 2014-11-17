@@ -58,7 +58,7 @@ public class Hero {
 		int chase = run();
 		view.Chase(this.name, chase);
 		return chase;
-	}	
+	}
 	
 	public int selectHeroAction() {
 		int action = view.selectHeroAction(this.actions);
@@ -121,8 +121,6 @@ public class Hero {
 	public int getRunPower() {
 		return this.runPower;
 	}
-	
-	//getChase?
 	
 	public int getAct() {
 		return this.act;

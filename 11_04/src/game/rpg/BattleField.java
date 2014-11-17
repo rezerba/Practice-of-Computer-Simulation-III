@@ -3,7 +3,7 @@ package game.rpg;
 public class BattleField {
 	
 	private int state = 0;
-	private int no = 1;
+	private int no = 0;
 	private String []actions = {"battle", "end"};
 	private String []stateSt = {"戦闘中", "プレイヤ勝利", "プレイヤ負け", "プレイヤ逃走", "敵キャラ逃走"};
 	Hero hero;
@@ -74,6 +74,7 @@ public class BattleField {
 	public int repeatBattle() {
 		boolean flag = false;
 		while ((!flag)) {
+			no++;
 			this.monster = makeNewMonster(no);
 			flag = buttle();
 		}
@@ -102,13 +103,10 @@ public class BattleField {
 	
 	Monster makeNewMonster(int no) {
 		double ran = Math.random();
-		no++;
 		if (ran <= 0.3) {
 			this.monster = new MagicMonster();
-			System.err.println("---MagicMonster---");
 		}
 		this.monster = new Monster();
-		
 		return monster;
 	}
 }

@@ -27,7 +27,6 @@ public class MagicMonster extends Monster{
 	int attack() {
 		double chance = Math.random();
 		if (chance < 0.5) {
-			System.err.println("Use Magic");
 			return useMagic(atk);
 		}
 		System.err.println("Monster attack");
