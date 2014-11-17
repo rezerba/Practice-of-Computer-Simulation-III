@@ -7,8 +7,8 @@ public class MagicMonster extends Monster{
 	int maxMP;
 	Random ran = new Random();
 	
-	public MagicMonster() {
-		super();
+	public MagicMonster(View view) {
+		super(view);
 		super.name = "MagicMonster";
 		this.mp = ran.nextInt(maxMP + 1) + 10;
 		this.maxMP = ran.nextInt(81) + 20;

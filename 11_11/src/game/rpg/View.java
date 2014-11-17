@@ -42,7 +42,7 @@ public class View {
 
 	int damage;
 	int hp;
-	public void showHeroState(Hero hero) {
+	public void showHeroState(GameChara hero) {
 		System.out.println("-------------------------");
 		this.showAttack(hero.getName(), hero.getAttackPower());
 		this.showDefend(hero.getName(), hero.getDefencePower());
@@ -58,7 +58,7 @@ public class View {
 		System.out.println("-------------------------");
 	}
 
-	public void showMonsterState(Monster monster, int no) {
+	public void showMonsterState(GameChara monster, int no) {
 		System.out.println("-------------------------");
 		this.showName(monster.getName(), no);
 		this.showAttack(monster.getName(), monster.getAttackPower());
@@ -77,7 +77,10 @@ public class View {
 	
 	public int selectHeroAction(String[] option) {
 		String []str = option;
-		System.out.println("(1) " + option[0] + " (2) " + option[1]);
+		for (int i = 0; i < str.length; i++) {
+			System.out.print("(" + (i+1) + ") " + option[i] + " ");
+		}
+		System.out.println();
 		int select = new Scanner(System.in).nextInt();
 		select--;
 		if (option[0] == str[select]) {

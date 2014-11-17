@@ -6,11 +6,11 @@ public class BattleField {
 	private int no = 0;
 	private String []actions = {"battle", "end"};
 	private String []stateSt = {"戦闘中", "プレイヤ勝利", "プレイヤ負け", "プレイヤ逃走", "敵キャラ逃走"};
-	Hero hero;
-	Monster monster;
+	GameChara hero;
+	GameChara monster;
 	View view;
 	
-	BattleField(Hero hero, View view) {
+	BattleField(GameChara hero, View view) {
 		this.hero = hero;
 		this.view = view;
 	}
@@ -21,11 +21,10 @@ public class BattleField {
 		state = 0;
 		
 		while (true) {
-			hero.selectHeroAction();
 			hrun = hero.run();
 			mrun = monster.run();
-			if ((hero.getAct() == 2 && (hrun > mrun ))) {
-				view.selectHeroAction(actions);
+			if ((hero.selectAction() == 2 && (hrun > mrun ))) {
+				state = 4;
 				return true;
 			}
 			
@@ -47,9 +46,8 @@ public class BattleField {
 			showCharacterState();
 			
 			// monsterの攻撃
-			monster.selectAction();
-			if ((monster.getAct() == 2 && (mrun > hrun))) {
-				state = 4;
+			if ((monster.selectAction() == 2 && (mrun > hrun))) {
+				state = 5;
 				return true;
 			}
 			
@@ -101,12 +99,12 @@ public class BattleField {
 		view.showMonsterState(monster, no);
 	}
 	
-	Monster makeNewMonster(int no) {
+	GameChara makeNewMonster(int no) {
 		double ran = Math.random();
 		if (ran <= 0.3) {
-			this.monster = new MagicMonster();
+			this.monster = new MagicMonster(view);
 		}
-		this.monster = new Monster();
+		this.monster = new Monster(view);
 		return monster;
 	}
 }
