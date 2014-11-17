@@ -66,9 +66,9 @@
 
 8. 2014/11/11  
   1. 課題7のリファクタリング  
-    * Hero.java  
-    * Monster.java  
-    * MagicMonster.java  
-    * GameChara.java  
-    * BattleField.java  
-    * View.java  
+    * [Hero.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/Hero.java)  
+    * [Monster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/Monster.java)  
+    * [MagicMonster.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/Monster.java)  
+    * [GameChara.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/GameChara.java)  
+    * [BattleField.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/BattleField.java)  
+    * [View.java](https://github.com/rezerba/Practice-of-Computer-Simulation-III/blob/master/11_11/src/game/rpg/View.java)  
